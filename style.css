@@ -1,0 +1,38 @@
+* {
+    margin : 0;
+}
+div {
+    background-image: 
+      url(images/top-left-corner.png),
+      url(images/top-right-corner.png),
+      url(images/bott-right-corner.png),
+      url(images/bott-left-corner.png),
+      url(images/t-wall.png),
+      url(images/right-wall.png),
+      url(images/bottom-wall.png),
+      url(images/left-wall.png);
+    
+    background-repeat: 
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      repeat-x,
+      repeat-y,
+      repeat-x,
+      repeat-y;
+
+    background-position :
+    left top,
+    right top,
+    right bottom,
+    left bottom,
+    top,
+    right,
+    bottom,
+    left;
+   
+    text-align : justify;
+    padding: 45px;
+    
+}
